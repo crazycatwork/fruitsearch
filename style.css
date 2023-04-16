@@ -7,38 +7,52 @@
 }
 
 body {
-  /* TODO */
+  background:  linear-gradient( 45deg,
+                              rgb(253, 253, 0) 0%, 
+                              rgb(194, 165, 3) 35%, 
+                              rgba(255,16,0,1) 100%);
 }
 
 input {
- /* TODO */
+  padding: 10px;
 }
 
 .search-container {
+  width: 100vw;
+  height: 100vw;
  /* TODO */
 }
 .search-container input,
 .search-container .suggestions {
-  /* TODO */
+  width: 20vw;
+  margin-left: 40vw;
 }
 .search-container input {
- /* TODO */
+  margin-top: 10vw;
+  border-radius: 3px;
+  border-style: none;
+  height: 2em;
 }
 .search-container .suggestions {
-   /* TODO */
 }
 
 ul {
-  /* TODO */
+  list-style-type: none; 
+  padding: 10px; 
+  border-radius: 3px;
+  border-style: none;
 }
 ul.has-suggestions {
-  /* TODO */
+  background-color: lightgoldenrodyellow;
+
 }
 ul li {
-  /* TODO */
+  height: 2em;
+  vertical-align: middle;
 }
 ul li:hover {
-  /* TODO */
+  color: white;
+  background-color: darkcyan;
 }
 
 input {
